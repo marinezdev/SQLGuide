@@ -1,0 +1,7 @@
+-- Para borrar el cache puedes utilizar las siguientes instrucciones: 
+ 
+--BORRA TODOS LOS PLANES DEL CACHE 
+DBCC FREEPROCCACHE WITH NO_INFOMSGS 
+  
+--VACIA LOS DATOS DEL CACHE 
+DBCC DROPCLEANBUFFERS WITH NO_INFOMSGS 
